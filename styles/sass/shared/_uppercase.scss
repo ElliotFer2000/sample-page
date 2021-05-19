@@ -1,0 +1,8 @@
+.uppercase{
+    font-family: $font-family;
+    text-transform: uppercase;
+
+    &_accent{
+        color: $color-accent;
+    }
+}

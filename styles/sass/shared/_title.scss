@@ -1,0 +1,15 @@
+.title{
+    font-family: $font-family;
+    font-weight: $title-weight;
+    font-size: $title-font-size;
+    @include break-word;
+    @include screen-sm{
+        font-size: $title-font-size-sm;
+    }
+    @include screen-md{
+        font-size: $title-font-size-md;
+    }
+    &_leading{
+        color: $color-primary;
+    }
+}

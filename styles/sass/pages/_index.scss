@@ -1,0 +1,37 @@
+$background-header-url: "../../../images/meth-hero.jpg";
+
+.header{
+    @include background-image($background-header-url,$background-header-url);
+    @include bg-cover;
+    min-height: 100vh;
+    padding-top: 25px;
+}
+
+.footer{
+    background-color: $color-primary;
+    position: sticky;
+    bottom: 0;
+    padding: 15px;
+}
+
+
+.leading{
+    border-radius: 20px 20px 0px 0px;
+    background-color: $color-accent;
+    background: transparent linear-gradient(359deg, #FFFFFF 0%, #FFFFFFE5 100%) 0% 0% no-repeat padding-box;
+    padding: 10px;
+    opacity: 0.89;
+
+    @include screen-sm{
+        padding: 25px;
+    }
+
+    @include screen-md{
+        padding: 50px;
+    }
+
+    &__title{
+        color: $color-primary;
+        text-align: center;
+    }
+}

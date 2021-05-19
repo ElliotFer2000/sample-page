@@ -1,0 +1,13 @@
+*{
+    all: initial;
+    box-sizing: border-box;
+}
+
+script,style,title{
+    display: none;
+}
+
+h1,h2,h3,h4,h5,h6,div,header,section,footer,article,aside,p{
+    display: block;
+    line-height: 1.5;
+}

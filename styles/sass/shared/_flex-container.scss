@@ -1,0 +1,26 @@
+.d-flex{
+    display: flex;
+
+    &_cross-end{
+        align-items: flex-end;
+    }
+
+    &_cross-center{
+        align-items: center;
+    }
+
+    &_dir-column{
+        flex-direction: column;
+    }
+
+    &_dir-row-lg{
+        @include screen-lg{
+            flex-direction: row;
+        }
+    }
+
+    &_main-between-lg{
+        justify-content: space-between;
+    }
+
+}

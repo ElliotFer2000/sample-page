@@ -1,0 +1,21 @@
+.paragraph{
+    font-family: $font-family;
+    font-weight: $normal-text-weight;
+    font-size: $normal-text-font-size;
+  
+    @include break-word;
+
+    &_centered{
+        text-align: center;
+    }
+
+    &_accent{
+        color: $color-accent;
+    }
+
+    &_left-lg{
+        @include screen-lg{
+            text-align: left;
+        }
+    }
+}
